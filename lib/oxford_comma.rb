@@ -10,7 +10,7 @@ def oxford_comma(array)
   str += array[i] + ", "
   i += 1
 end
-array.insert(-2, "and ")
-str + array.last 
+new_arr = array.insert(-2, "and ")
+str + new_array.last 
 end 
 end
