@@ -7,7 +7,7 @@ def oxford_comma(array)
    array.insert(-2, "and ")
    str = ""
    i = 0 
-   while i < array.length -1 do
+   while i < array.length-1 do
   str += array[i] + ", "
   i += 1
 end
