@@ -6,6 +6,4 @@ def oxford_comma(array)
    array.join(",")
   end 
 end
-
-last = array.last
-with_and = "and" + last  
+ 
