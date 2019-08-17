@@ -11,5 +11,6 @@ def oxford_comma(array)
   str += array[i] + ", "
   i += 1
 end
+str 
 end 
 end
