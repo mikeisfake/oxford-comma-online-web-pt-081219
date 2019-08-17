@@ -8,6 +8,7 @@ def oxford_comma(array)
 end 
 end
 
+array.last = "and " + array.last
 
 
 #str = ""
