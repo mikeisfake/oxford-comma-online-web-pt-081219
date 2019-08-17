@@ -9,3 +9,5 @@ def oxford_comma(array)
   end 
 end
  
+ 
+array.drop(array.length -1)
