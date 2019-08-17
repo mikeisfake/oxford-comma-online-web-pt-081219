@@ -9,5 +9,7 @@ def oxford_comma(array)
   end 
 end
 
-while i < array.length -1 do
-  
+str = ""
+while i < array.length do
+  str += array[i] + ", "
+  i += 1
