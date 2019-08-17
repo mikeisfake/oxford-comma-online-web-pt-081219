@@ -5,12 +5,13 @@ def oxford_comma(array)
     array.join(" and ")
   else
    array.insert(-2, "and ")
+   last = array.pop
    str = ""
    i = 0 
    while i < array.length-2 do
   str += array[i] + ", "
   i += 1
 end
-str + array.pop
+str + last
 end 
 end
