@@ -6,6 +6,7 @@ def oxford_comma(array)
   else
    array.insert(-2, "and ")
    str = ""
+   i = 0 
    while i < array.length do
   str += array[i] + ", "
   i += 1
